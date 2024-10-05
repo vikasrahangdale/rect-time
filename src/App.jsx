@@ -1,5 +1,32 @@
-const App = () => {
-  return <h1>hello i am vikas</h1>;
-};
+import React   from 'react'
 
-export default App;
+const App = () => {
+  
+  return(
+    <div>
+       < Netfix />     
+       < Netfix /> 
+       < Netfix /> 
+       < Netfix /> 
+    </div>
+  )
+
+}
+
+
+
+const Netfix = () => {
+  return (
+
+    <div>
+      <div>
+      <img src="https://w0.peakpx.com/wallpaper/225/259/HD-wallpaper-ladies-red-saree-look-traditional-look-indian-girl.jpg" alt="" />
+      </div>
+      <h1>cute gilrs</h1>
+      <h2>msg mt krna bhut maregi</h2>
+    </div>
+  )
+
+}
+
+export default App
